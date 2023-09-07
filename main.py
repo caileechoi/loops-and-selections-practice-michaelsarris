@@ -15,14 +15,21 @@
 
 
 x=0
-stars = "**"
+stars="**"
 #print(stars)
 
 if (x<5):
     for i in range(6):
         print(stars*x)
         x+=1
+        
+else: 
+    for i in range(5):
+        print(stars*x)
+        x+=1
+        
 x-=1
+print(x)
 for i in range(6):
     x-=1
     print(stars*x)
